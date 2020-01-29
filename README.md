@@ -1,1 +1,4 @@
-# seng513-a1.github.io
+### DOGE-PEDIA
+# chantalmlchung.github.io
+
+A website containing dog breed information.
