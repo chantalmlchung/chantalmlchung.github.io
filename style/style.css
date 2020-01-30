@@ -8,13 +8,14 @@ html {
 }
 
 body { 
-    font: normal .80em trebuchet ms, sans-serif;
-    background: #EEE;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 80%;
+    background: #5D5F71;
     color: #5D5D5D;
 }
 
 p { 
-    padding: 0 0 20px 0;
+    padding: 0 0 15px 0;
     line-height: 1.7em;
 }
 
@@ -36,42 +37,40 @@ img.icon {
     left: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 { 
-    font: normal 165% 'century gothic', arial, sans-serif;
-    color: #2DB8CD;
+h1, h2, h3, h4, h5 { 
+    font-family: 'Nanum Pen Script', cursive;
+    color: #BF8B85;
     margin: 0 0 14px 0;
     padding: 10px 0 5px 0;
 }
 
-h2 { 
-    font: normal 165% 'century gothic', arial, sans-serif;
-    color: #B60000;
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #AD8A64;
+    margin: 0 0 0px 0;
+    padding: 0px 0 0px 0;
 }
 
 h3 { 
-    font: normal 165% 'century gothic', arial, sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
 }
 
-h4, h5, h6 { 
+h4, h5 { 
     margin: 0;
     padding: 0 0 5px 0;
-    font: normal 120% arial, sans-serif;
-    color: #B60000;
-}
-
-h5, h6 { 
-    font: italic 95% arial, sans-serif;
-    color: #888;
-}
-
-h6 { 
-    color: #362C20;
+    font-size: normal 120%;
+    font-family: 'Pontano Sans', sans-serif;
+    color: #AD8A64;
 }
 
 a, a:hover { 
     outline: none;
     text-decoration: underline;
-    color: #A4AA04;
+    color: #5D5F71;
 }
 
 a:hover { 
@@ -96,13 +95,6 @@ a:hover {
     margin: 20px auto;
 }
 
-blockquote { 
-    margin: 20px 0; 
-    padding: 10px 20px 0 20px;
-    border: 1px solid #E5E5DB;
-    background: #FFF;
-}
-
 ul { 
     margin: 2px 0 22px 17px;
 }
@@ -111,6 +103,12 @@ ul li {
     list-style-type: circle;
     margin: 0 0 6px 0; 
     padding: 0 0 4px 5px;
+}
+
+ul li.dog_element {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 #main, #logo, #menubar, #site_content, #footer { 
@@ -134,7 +132,7 @@ ul li {
 }
 
 #logo h1, #logo h2 { 
-    font: normal 300% "century gothic", arial, sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 #logo h1 {
@@ -144,19 +142,20 @@ ul li {
 }
 
 #logo h2 { 
-    font-size: 120%;
+    font-size: 150%;
     padding: 4px 0 0 0;
-    color: #A8AA94;
+    color: #E3D8F1;
 }
 
 #logo h1, #logo h1 a, #logo h1 a:hover { 
     padding: 22px 0 0 0;
     color: #FFF;
     text-decoration: none;
+    font-size: 250%;
 }
 
 #logo h1 a .logo_colour { 
-    color: #888;
+    color: #DABECA;
 }
 
 #logo a:hover .logo_colour { 
@@ -182,7 +181,7 @@ ul#menu li {
 }
 
 ul#menu li a { 
-    font: normal 100% 'trebuchet ms', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     display: block; 
     float: left; 
     height: 20px;
@@ -195,11 +194,11 @@ ul#menu li a {
 
 ul#menu li.selected a, ul#menu li.selected a:hover { 
     background: #FFF;
-    color: #B60000;
+    color: #AD8A64;
 }
 
 ul#menu li a:hover { 
-    color: #B60000;
+    color: #AD8A64;
 }
 
 #site_content { 
@@ -207,8 +206,8 @@ ul#menu li a:hover {
     overflow: hidden;
     margin: 0 auto 0 auto;
     padding: 10px 20px 20px 20px;
-    background: #F6F6F0 url(back.png) repeat-y;
-    border: 15px solid #FFF;
+    background: #FFF url(back.png) repeat-y;
+    border: 15px solid rgba(173, 138, 100, 0.295);
 } 
 
 .sidebar { 
@@ -247,7 +246,7 @@ ul#menu li a:hover {
 
 #footer { 
     width: 916px;
-    font-family: sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 90%;
     height: 28px;
     padding: 20px 0 5px 0;
@@ -274,17 +273,18 @@ ul#menu li a:hover {
   
 table { 
     margin: 10px 0 30px 0;
+    font-family: 'Pontano Sans', sans-serif;
 }
 
 table tr th, table tr td { 
-    background: #3B3B3B;
+    background: #5D5F71;
     color: #FFF;
     padding: 7px 4px;
     text-align: center;
 }
   
 table tr td { 
-    background: #E5E5DB;
+    background: rgba(173, 138, 100, 0.295);
     color: #47433F;
     border-top: 1px solid #FFF;
 }
